@@ -1,0 +1,47 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+.fw-bold {
+    font-size: 1.25rem; /* Aumenta el tamaño del título */
+}
+
+@media (max-width: 768px) {
+    .list-group-item {
+        padding: 15px; /* Más espacio en dispositivos móviles */
+    }
+
+    .offcanvas {
+        width: 100%; 
+    }
+
+    .fw-bold {
+        font-size: 1.1rem; 
+    }
+}
+
